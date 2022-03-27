@@ -1,0 +1,180 @@
+baseURL = 'https://phenix3443.github.io/resume/'
+languageCode = 'zh-cn'
+publishDir = "docs"
+theme = "devresume"
+title = 'phenix3443'
+
+[params]
+author = "刘尚亮"
+description = "我的中文简历"
+primaryColor = "#54B689"
+textPrimaryColor = "#292929"
+
+[params.profile]
+avatar = "guilin.JPG"
+enable = true
+name = "phenix3443"
+tagline = "Senior Software Engineer"
+
+[params.contact]
+enable = true
+location = "Shenzhen China"
+
+[[params.contact.list]]
+icon = "fas fa-phone-square"
+text = "+086 15338796096"
+url = "tel:#"
+
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+text = "344300476@qq.com"
+url = "mailto:#"
+
+[[params.contact.list]]
+icon = "fas fa-globe"
+text = "phenix3443.github.com"
+url = "#"
+
+[params.skills]
+enable = true
+
+[[params.skills.list]]
+title = "Technical"
+[[params.skills.list.items]]
+details = "C/C++/Lua/Python/Golang"
+[[params.skills.list.items]]
+details = "Flask/Scrapy/OpenResty"
+[[params.skills.list.items]]
+details = "beego/gin/gRPC"
+[[params.skills.list.items]]
+details = "Redis/MySQL"
+[[params.skills.list.items]]
+details = "设计模式"
+
+[[params.skills.list]]
+title = "Professional"
+[[params.skills.list.items]]
+details = "高效沟通"
+[[params.skills.list.items]]
+details = "团队合作"
+[[params.skills.list.items]]
+details = "时间管理"
+
+[params.education]
+enable = true
+[[params.education.list]]
+dates = "2010.9 ~ 2013.1"
+degree = "软件工程信息安全（硕士）"
+university = "中国科学与技术大学"
+[[params.education.list]]
+dates = "2005.9 ~ 2009.7"
+degree = "计算机信息安全专业（学士）"
+university = "哈尔滨工业大学"
+
+[params.awards]
+enable = false
+
+[[params.awards.list]]
+body = ""
+date = ""
+name = ""
+
+[params.languages]
+enable = true
+[[params.languages.list]]
+level = "Native"
+name = "Chinese"
+[[params.languages.list]]
+level = "Professional"
+name = "English"
+
+[params.interests]
+enable = true
+[[params.interests.list]]
+name = "爬山"
+[[params.interests.list]]
+name = "摄影"
+[[params.interests.list]]
+name = "旅行"
+
+[params.summary]
+enable = true
+text = "九年开发经验，在项目重构、微服务化、性能优化等方面都有丰富的经验。"
+
+[params.experience]
+enable = true
+[[params.experience.list]]
+company = "深圳市腾讯计算机系统有限公司"
+dates = "2020.7 ~ 至今"
+details = "作为核心开发参与了多个项目的开发迭代，在项目重构、性能优化、疑难问题排查等方面都有丰富的经验，负责业务技术文档的编写以及维护，定期 Review 团队代码。"
+title = "Linux 服务端高级工程师"
+[[params.experience.list.items]]
+details = "空间增值项目。"
+[[params.experience.list.items]]
+details = "天璇活动平台。"
+[[params.experience.list.items]]
+details = "群礼物、QQ 直播。"
+
+[[params.experience.list]]
+company = "深圳市迅雷网络技术有限公司"
+dates = "2015.12 ~ 2020.7"
+details = "负责核心项目的代码编写，重构和维护，主导技术难题攻关，保证系统的可靠性以及稳定性。"
+title = "Linux 服务端研发工程师"
+[[params.experience.list.items]]
+details = "高速离线。"
+[[params.experience.list.items]]
+details = "玩客云项目。"
+
+[[params.experience.list]]
+company = "深圳尚游游戏有限公司"
+dates = "2014.4 ~ 2015.8"
+details = "参与多个手游项目的开发。"
+title = "Linux 服务端研发工程师"
+
+[[params.experience.list]]
+company = "深圳普联技术有限公司"
+dates = "2013.4 ~ 2013.11"
+details = "路由器平台产品研发。"
+title = "研发工程师"
+
+[params.projects]
+enable = true
+
+[[params.projects.list]]
+meta = "Open Source"
+tagline = "基于 OpenResty 的服务开发框架"
+title = "openresty-delvelop-frame"
+
+[[params.projects.list]]
+meta = "Open Source"
+tagline = "Emacs 上 lsp-mode 开发的 client，可使用 EmmyLua-LanguageServer 进行代码补全。"
+title = "lsp-lua-emmy"
+
+[[params.projects.list]]
+meta = "Open Source"
+tagline = "slf4go 的 zap 日志库适配器。"
+title = "slf4go-zap"
+
+[params.information]
+enable = false
+[[params.information.list]]
+title = "Papers"
+[[params.information.list.items]]
+details = "2018 · Lorem Ipsum"
+[[params.information.list.items]]
+details = "2016 · Sed Fringilla"
+
+[params.social]
+enable = true
+[[params.social.list]]
+icon = "fab fa-github-square"
+title = "phenix3443"
+url = "//github.com/phenix3443"
+[[params.social.list]]
+icon = "fab fa-linkedin"
+title = "phenix3443"
+url = "//linkedin.com/in/phenix3443"
+[[params.social.list]]
+icon = "fab fa-twitter-square"
+title = "@phenix3443"
+url = "//twitter.com/phenix3443"

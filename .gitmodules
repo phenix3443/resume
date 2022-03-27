@@ -1,0 +1,3 @@
+[submodule "themes/devresume"]
+	path = themes/devresume
+	url = git@github.com:phenix3443/hugo-devresume-theme.git

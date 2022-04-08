@@ -11,7 +11,7 @@ primaryColor = "#54B689"
 textPrimaryColor = "#292929"
 
 [params.profile]
-avatar = "guilin.JPG"
+avatar = "avatar.png"
 enable = true
 name = "phenix3443"
 tagline = "Senior Software Engineer"
